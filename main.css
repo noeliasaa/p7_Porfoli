@@ -1,0 +1,161 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --verde: #3eb595;
+    --blanc: #FFFFFF;
+    --negre: #202426;
+    --Poopins: 'Poopins', sans-serif;
+
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:  3.5em 3.5em 2em  3.5em;
+}
+
+header nav a{
+    color: var(--verde);
+    text-decoration: none;
+    font-family: var(--Poopins);
+}
+
+footer, main a{
+    text-decoration: none;
+}
+
+main #name{
+    padding: 1em 0  2em 4em;
+    font-size: 1.5em;
+    font-family: var(--Poopins);
+    color: var(--verde);
+
+}
+
+main #container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-bottom: 2em;
+}
+
+.practica{
+    margin: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 410px;
+    height: 310px;
+    font-family: var(--Poopins);
+    color: var(--verde);
+}
+
+.practica caption{
+    font-size: 0.5em;
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    
+}
+
+.practica caption h4{
+    font-family: var(--Poopins);
+    font-size: 1em;
+    font-weight: 400;
+
+}
+
+.practica caption h5{
+    font-family: var(--Poopins);
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.practica_img{
+    background-color: var(--verde);
+    overflow: hidden;
+    width: max-content;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-grow: 0.9;
+}
+
+hr {
+    height: 5px;
+    width: 100%;
+    border-color: white;
+    background-color: var(--verde);
+  }
+
+.separador{
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    padding-top: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+    font-family: var(--Poopins);
+    color: var(--verde);
+}
+
+#contacte{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+#escola{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+#informacio{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+#practica1 .practica_img:hover{
+    background-image: url(img/porfoli1.jpg);
+}
+
+#practica2 .practica_img:hover{
+    background-image: url(img/porfoli2.jpg);
+}
+
+#practica3 .practica_img:hover{
+    background-image: url(img/porfoli3.jpg);
+}
+
+#practica4 .practica_img:hover{
+    background-image: url(img/porfoli4.jpg);
+}
+
+#practica5 .practica_img:hover{
+    background-image: url(img/porfoli5.jpg);
+}
+
+#practica6 .practica_img:hover{
+    background-image: url(img/porfoli6.jpg);
+}
